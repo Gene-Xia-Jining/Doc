@@ -1,0 +1,349 @@
+2026-04-02T08:49:31.863Z	Initializing build environment...
+2026-04-02T08:49:33.794Z	Success: Finished initializing build environment
+2026-04-02T08:49:35.049Z	Cloning repository...
+2026-04-02T08:49:38.936Z	Restoring from dependencies cache
+2026-04-02T08:49:38.941Z	Restoring from build output cache
+2026-04-02T08:49:38.945Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-04-02T08:49:39.024Z	Installing project dependencies: npm clean-install --progress=false
+2026-04-02T08:49:31.863Z	Initializing build environment...
+2026-04-02T08:49:33.794Z	Success: Finished initializing build environment
+2026-04-02T08:49:35.049Z	Cloning repository...
+2026-04-02T08:49:38.936Z	Restoring from dependencies cache
+2026-04-02T08:49:38.941Z	Restoring from build output cache
+2026-04-02T08:49:38.945Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-04-02T08:49:39.024Z	Installing project dependencies: npm clean-install --progress=false
+2026-04-02T08:49:47.988Z	
+2026-04-02T08:49:47.992Z	added 354 packages, and audited 355 packages in 9s
+2026-04-02T08:49:47.993Z	
+2026-04-02T08:49:47.993Z	193 packages are looking for funding
+2026-04-02T08:49:47.993Z	  run `npm fund` for details
+2026-04-02T08:49:47.993Z	
+2026-04-02T08:49:47.993Z	found 0 vulnerabilities
+2026-04-02T08:49:48.218Z	Executing user build command: npm run build
+2026-04-02T08:49:48.454Z	
+2026-04-02T08:49:48.454Z	> doc@0.0.1 build
+2026-04-02T08:49:48.455Z	> astro build
+2026-04-02T08:49:48.455Z	
+2026-04-02T08:49:51.328Z	08:49:51 [content] Syncing content
+2026-04-02T08:49:51.415Z	08:49:51 [content] Synced content
+2026-04-02T08:49:51.416Z	08:49:51 [types] Generated 790ms
+2026-04-02T08:49:51.418Z	08:49:51 [build] output: "static"
+2026-04-02T08:49:51.419Z	08:49:51 [build] mode: "static"
+2026-04-02T08:49:51.419Z	08:49:51 [build] directory: /opt/buildhome/repo/dist/
+2026-04-02T08:49:51.419Z	08:49:51 [build] Collecting build info...
+2026-04-02T08:49:51.419Z	08:49:51 [build] ✓ Completed in 938ms.
+2026-04-02T08:49:51.419Z	08:49:51 [build] Building static entrypoints...
+2026-04-02T08:49:53.662Z	08:49:53 [WARN] [vite] "matchHostname", "matchPathname", "matchPort" and "matchProtocol" are imported from external module "@astrojs/internal-helpers/remote" but never used in "node_modules/astro/dist/assets/utils/index.js".
+2026-04-02T08:49:53.924Z	08:49:53 [vite] ✓ built in 2.45s
+2026-04-02T08:49:54.226Z	08:49:54 [vite] ✓ built in 304ms
+2026-04-02T08:49:54.233Z	08:49:54 [build] Rearranging server assets...
+2026-04-02T08:49:54.246Z	
+2026-04-02T08:49:54.246Z	 generating static routes 
+2026-04-02T08:49:54.296Z	Entry docs → 404 was not found.
+2026-04-02T08:49:54.308Z	08:49:54   ├─ /404.html (+24ms) 
+2026-04-02T08:49:54.321Z	08:49:54   ├─ /2026-0401/0-0/index.html (+13ms) 
+2026-04-02T08:49:54.325Z	08:49:54   ├─ /guides/example/index.html (+4ms) 
+2026-04-02T08:49:54.333Z	08:49:54   ├─ /index.html (+8ms) 
+2026-04-02T08:49:54.336Z	08:49:54   ├─ /reference/example/index.html (+4ms) 
+2026-04-02T08:49:54.336Z	08:49:54 ✓ Completed in 102ms.
+2026-04-02T08:49:54.337Z	
+2026-04-02T08:49:54.337Z	 generating optimized images 
+2026-04-02T08:49:54.415Z	08:49:54   ▶ /_astro/ludashi-1.CvnLaIZC_Z2tUgqi.webp (before: 96kB, after: 43kB) (+78ms) (1/13)
+2026-04-02T08:49:54.416Z	08:49:54   ▶ /_astro/1 - 综合-5034875-5034878.D2u_MaaM_ZSQxJ.webp (before: 112kB, after: 51kB) (+78ms) (2/13)
+2026-04-02T08:49:54.471Z	08:49:54   ▶ /_astro/3 - 处理器排行-5034902-5034906.BdV8Bz5j_Z2hNdkz.webp (before: 121kB, after: 57kB) (+54ms) (3/13)
+2026-04-02T08:49:54.481Z	08:49:54   ▶ /_astro/2 - 综合排行.7v-xmSvE_AFaXf.webp (before: 135kB, after: 64kB) (+65ms) (4/13)
+2026-04-02T08:49:55.306Z	08:49:55   ▶ /_astro/image-20260401171556169-5034958.DyqaxRQx_ZdN9jE.webp (before: 5725kB, after: 191kB) (+835ms) (5/13)
+2026-04-02T08:49:55.580Z	08:49:55   ▶ /_astro/image-20260401171624138-5034985.BlhcbpWQ_Zxgwwu.webp (before: 10253kB, after: 592kB) (+1.10s) (6/13)
+2026-04-02T08:49:56.145Z	08:49:56   ▶ /_astro/image-20260401171643952-5035005.CEW94dF__Z1ntjHf.webp (before: 6037kB, after: 261kB) (+838ms) (7/13)
+2026-04-02T08:49:56.603Z	08:49:56   ▶ /_astro/image-20260331152247541.Cr8-K0zT_Z1mSUkL.webp (before: 10931kB, after: 573kB) (+1.02s) (8/13)
+2026-04-02T08:49:56.953Z	08:49:56   ▶ /_astro/image-20260331145546623.Dm5bBpuU_vrPzO.webp (before: 8431kB, after: 116kB) (+807ms) (9/13)
+2026-04-02T08:49:57.387Z	08:49:57   ▶ /_astro/image-20260331145206253.D_LamPED_Z2lEyPc.webp (before: 6425kB, after: 234kB) (+782ms) (10/13)
+2026-04-02T08:49:57.740Z	08:49:57   ▶ /_astro/image-20260401171805301-5035087.B7Rua7lb_ZcjaOm.webp (before: 7404kB, after: 179kB) (+785ms) (11/13)
+2026-04-02T08:49:57.810Z	08:49:57   ▶ /_astro/houston.CZZyCf7p_Z1lAhR9.webp (before: 96kB, after: 26kB) (+66ms) (12/13)
+2026-04-02T08:49:58.227Z	08:49:58   ▶ /_astro/image-20260401171856458-5035138.D4D0OHBx_6eQLf.webp (before: 7018kB, after: 342kB) (+838ms) (13/13)
+2026-04-02T08:49:58.229Z	08:49:58 ✓ Completed in 3.89s.
+2026-04-02T08:49:58.229Z	
+2026-04-02T08:49:58.232Z	08:49:58 [build] ✓ Completed in 6.81s.
+2026-04-02T08:49:58.232Z	08:49:58 [starlight:pagefind] Building search index with Pagefind...
+2026-04-02T08:49:58.263Z	08:49:58 [starlight:pagefind] Found 5 HTML files.
+2026-04-02T08:49:58.271Z	08:49:58 [starlight:pagefind] Finished building search index in 38ms.
+2026-04-02T08:49:58.272Z	08:49:58 [WARN] [@astrojs/sitemap] The Sitemap integration requires the `site` astro.config option. Skipping.
+2026-04-02T08:49:58.272Z	08:49:58 [build] 5 page(s) built in 7.79s
+2026-04-02T08:49:58.272Z	08:49:58 [build] Complete!
+2026-04-02T08:49:58.330Z	Success: Build command completed
+2026-04-02T08:49:58.845Z	Executing user deploy command: npx wrangler deploy
+2026-04-02T08:50:00.129Z	npm warn exec The following package was not found and will be installed: wrangler@4.79.0
+2026-04-02T08:50:08.074Z	
+2026-04-02T08:50:08.074Z	 ⛅️ wrangler 4.79.0
+2026-04-02T08:50:08.074Z	───────────────────
+2026-04-02T08:50:08.197Z	
+2026-04-02T08:50:08.197Z	Detected Project Settings:
+2026-04-02T08:50:08.197Z	 - Worker Name: doc
+2026-04-02T08:50:08.197Z	 - Framework: Astro
+2026-04-02T08:50:08.197Z	 - Build Command: npm run build
+2026-04-02T08:50:08.197Z	 - Output Directory: dist
+2026-04-02T08:50:08.197Z	
+2026-04-02T08:50:08.197Z	? Do you want to modify these settings?
+2026-04-02T08:50:08.197Z	🤖 Using fallback value in non-interactive context: no
+2026-04-02T08:50:08.199Z	
+2026-04-02T08:50:08.199Z	📦 Install packages:
+2026-04-02T08:50:08.200Z	 - wrangler (devDependency)
+2026-04-02T08:50:08.200Z	
+2026-04-02T08:50:08.200Z	📝 Update package.json scripts:
+2026-04-02T08:50:08.200Z	 - "deploy": "npm run build && wrangler deploy"
+2026-04-02T08:50:08.200Z	 - "preview": "npm run build && wrangler dev"
+2026-04-02T08:50:08.200Z	
+2026-04-02T08:50:08.202Z	🛠️  Configuring project for Astro with "astro add cloudflare"
+2026-04-02T08:50:08.202Z	
+2026-04-02T08:50:08.202Z	? Proceed with setup?
+2026-04-02T08:50:08.202Z	🤖 Using fallback value in non-interactive context: yes
+2026-04-02T08:50:18.931Z	├ Adding Wrangler files to the .gitignore file
+2026-04-02T08:50:18.931Z	│ updated .gitignore file
+2026-04-02T08:50:18.931Z	│
+2026-04-02T08:50:18.931Z	[build] Running: npm run build
+2026-04-02T08:50:19.081Z	[build] 
+2026-04-02T08:50:19.081Z	[build] > doc@0.0.1 build
+2026-04-02T08:50:19.082Z	[build] > astro build
+2026-04-02T08:50:19.082Z	[build] 
+2026-04-02T08:50:19.082Z	[build] 
+2026-04-02T08:50:21.920Z	[build] 08:50:21 [@astrojs/cloudflare] Enabling image processing with Cloudflare Images for production with the "IMAGES" Images binding.
+2026-04-02T08:50:21.920Z	[build] 08:50:21 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+2026-04-02T08:50:21.920Z	[build] 
+2026-04-02T08:50:24.430Z	[build] 08:50:24 [vite] Re-optimizing dependencies because lockfile has changed
+2026-04-02T08:50:24.430Z	[build] 
+2026-04-02T08:50:25.481Z	[build] 08:50:25 [content] Syncing content
+2026-04-02T08:50:25.481Z	[build] 
+2026-04-02T08:50:25.497Z	[build] 08:50:25 [content] Astro config changed
+2026-04-02T08:50:25.497Z	[build] 
+2026-04-02T08:50:25.498Z	[build] 08:50:25 [content] Clearing content store
+2026-04-02T08:50:25.498Z	[build] 
+2026-04-02T08:50:25.580Z	[build] 08:50:25 [content] Synced content
+2026-04-02T08:50:25.580Z	[build] 
+2026-04-02T08:50:25.601Z	[build] 08:50:25 [types] Generated 3.53s
+2026-04-02T08:50:25.601Z	[build] 
+2026-04-02T08:50:25.601Z	[build] 08:50:25 [build] output: "static"
+2026-04-02T08:50:25.601Z	[build] 
+2026-04-02T08:50:25.601Z	[build] 08:50:25 [build] mode: "server"
+2026-04-02T08:50:25.601Z	[build] 08:50:25 [build] directory: /opt/buildhome/repo/dist/
+2026-04-02T08:50:25.602Z	[build] 08:50:25 [build] adapter: @astrojs/cloudflare
+2026-04-02T08:50:25.602Z	[build] 08:50:25 [build] Collecting build info...
+2026-04-02T08:50:25.602Z	[build] 
+2026-04-02T08:50:25.602Z	[build] 08:50:25 [build] ✓ Completed in 3.68s.
+2026-04-02T08:50:25.602Z	[build] 
+2026-04-02T08:50:25.605Z	[build] 08:50:25 [build] Building server entrypoints...
+2026-04-02T08:50:25.605Z	[build] 
+2026-04-02T08:50:30.851Z	[build] 08:50:30 [WARN] [vite] Unexpected Node.js imports for environment "prerender". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:30.853Z	[build]  - "path" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:30.853Z	[build]  - "path" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:30.853Z	[build]  - "path" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:30.853Z	[build]  - "path" imported from " path?commonjs-external"
+2026-04-02T08:50:30.854Z	[build]  - "url" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:30.854Z	[build]  - "url" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:30.854Z	[build]  - "url" imported from " url?commonjs-external"
+2026-04-02T08:50:30.854Z	[build]  - "fs" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:30.854Z	[build]  - "fs" imported from " fs?commonjs-external"
+2026-04-02T08:50:30.854Z	[build]  - "util" imported from "node_modules/util-deprecate/node.js"
+2026-04-02T08:50:30.854Z	[build]  - "util" imported from " util?commonjs-external"
+2026-04-02T08:50:30.854Z	[build] 
+2026-04-02T08:50:30.854Z	[build] 
+2026-04-02T08:50:32.054Z	[build] 08:50:32 [vite] ✓ built in 6.40s
+2026-04-02T08:50:32.056Z	[build] 
+2026-04-02T08:50:34.125Z	[build] 08:50:34 [WARN] [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:34.125Z	[build]  - "path" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:34.125Z	[build]  - "path" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:34.125Z	[build]  - "path" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:34.125Z	[build]  - "url" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:34.125Z	[build]  - "url" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:34.125Z	[build]  - "fs" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:34.125Z	[build] 
+2026-04-02T08:50:34.125Z	[build] 
+2026-04-02T08:50:35.134Z	[build] 08:50:35 [WARN] [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:35.135Z	[build]  - "util" imported from "node_modules/util-deprecate/node.js"
+2026-04-02T08:50:35.135Z	[build]  - "util" imported from " util?commonjs-external"
+2026-04-02T08:50:35.135Z	[build]  - "path" imported from " path?commonjs-external"
+2026-04-02T08:50:35.136Z	[build]  - "url" imported from " url?commonjs-external"
+2026-04-02T08:50:35.136Z	[build]  - "fs" imported from " fs?commonjs-external"
+2026-04-02T08:50:35.136Z	[build] 
+2026-04-02T08:50:35.137Z	[build] 
+2026-04-02T08:50:35.249Z	[build] 08:50:35 [vite] ✓ built in 3.19s
+2026-04-02T08:50:35.250Z	[build] 
+2026-04-02T08:50:35.470Z	[build] 08:50:35 [vite] ✓ built in 217ms
+2026-04-02T08:50:35.470Z	[build] 
+2026-04-02T08:50:35.533Z	[build] 
+2026-04-02T08:50:35.533Z	[build]  prerendering static routes 
+2026-04-02T08:50:35.533Z	[build] 
+2026-04-02T08:50:36.813Z	[build] Failed to get static paths from the Cloudflare prerender server (500: Internal Server Error).
+2026-04-02T08:50:36.814Z	[build] Error: No such module "dist/server/.prerender/chunks/path".
+2026-04-02T08:50:36.814Z	[build]   imported from "dist/server/.prerender/chunks/Code_CUCxYFxG.mjs"
+2026-04-02T08:50:36.814Z	[build]     at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)
+2026-04-02T08:50:36.814Z	[build]   Location:
+2026-04-02T08:50:36.814Z	[build]     /opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22
+2026-04-02T08:50:36.814Z	[build]   Stack trace:
+2026-04-02T08:50:36.814Z	[build]     at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)
+2026-04-02T08:50:36.814Z	[build]     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-02T08:50:36.814Z	[build]     at async BasicMinimalPluginContext.handler (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:132:11)
+2026-04-02T08:50:36.814Z	[build]     at async buildEnvironments (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:316:3)
+2026-04-02T08:50:36.814Z	[build]     at async AstroBuilder.build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:158:5)
+2026-04-02T08:50:36.814Z	[build]     at async build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:48:3)
+2026-04-02T08:50:36.814Z	[build] 
+2026-04-02T08:50:37.000Z	✘ [ERROR] Error: Command failed with exit code 1: npm run build
+2026-04-02T08:50:37.001Z	
+2026-04-02T08:50:37.001Z	  Failed to get static paths from the Cloudflare prerender server (500: Internal Server Error).
+2026-04-02T08:50:37.001Z	  Error: No such module "dist/server/.prerender/chunks/path".
+2026-04-02T08:50:37.001Z	    imported from "dist/server/.prerender/chunks/Code_CUCxYFxG.mjs"
+2026-04-02T08:50:37.001Z	      at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)
+2026-04-02T08:50:37.001Z	    Location:
+2026-04-02T08:50:37.001Z	      /opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22
+2026-04-02T08:50:37.001Z	    Stack trace:
+2026-04-02T08:50:37.001Z	      at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)
+2026-04-02T08:50:37.001Z	      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-02T08:50:37.001Z	      at async BasicMinimalPluginContext.handler (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:132:11)
+2026-04-02T08:50:37.001Z	      at async buildEnvironments (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:316:3)
+2026-04-02T08:50:37.001Z	      at async AstroBuilder.build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:158:5)
+2026-04-02T08:50:37.001Z	      at async build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:48:3)
+2026-04-02T08:50:37.001Z	  
+2026-04-02T08:50:37.001Z	  > doc@0.0.1 build
+2026-04-02T08:50:37.001Z	  > astro build
+2026-04-02T08:50:37.001Z	  
+2026-04-02T08:50:37.001Z	  08:50:21 [@astrojs/cloudflare] Enabling image processing with Cloudflare Images for production with the "IMAGES" Images binding.
+2026-04-02T08:50:37.001Z	  08:50:21 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+2026-04-02T08:50:37.001Z	  08:50:24 [vite] Re-optimizing dependencies because lockfile has changed
+2026-04-02T08:50:37.001Z	  08:50:25 [content] Syncing content
+2026-04-02T08:50:37.001Z	  08:50:25 [content] Astro config changed
+2026-04-02T08:50:37.002Z	  08:50:25 [content] Clearing content store
+2026-04-02T08:50:37.002Z	  08:50:25 [content] Synced content
+2026-04-02T08:50:37.002Z	  08:50:25 [types] Generated 3.53s
+2026-04-02T08:50:37.002Z	  08:50:25 [build] output: "static"
+2026-04-02T08:50:37.002Z	  08:50:25 [build] mode: "server"
+2026-04-02T08:50:37.002Z	  08:50:25 [build] directory: /opt/buildhome/repo/dist/
+2026-04-02T08:50:37.002Z	  08:50:25 [build] adapter: @astrojs/cloudflare
+2026-04-02T08:50:37.002Z	  08:50:25 [build] Collecting build info...
+2026-04-02T08:50:37.002Z	  08:50:25 [build] ✓ Completed in 3.68s.
+2026-04-02T08:50:37.002Z	  08:50:25 [build] Building server entrypoints...
+2026-04-02T08:50:37.002Z	  08:50:30 [WARN] [vite] Unexpected Node.js imports for environment "prerender". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:37.002Z	   - "path" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:37.002Z	   - "path" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:37.002Z	   - "path" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:37.002Z	   - "path" imported from " path?commonjs-external"
+2026-04-02T08:50:37.002Z	   - "url" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:37.002Z	   - "url" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:37.002Z	   - "url" imported from " url?commonjs-external"
+2026-04-02T08:50:37.002Z	   - "fs" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:37.002Z	   - "fs" imported from " fs?commonjs-external"
+2026-04-02T08:50:37.002Z	   - "util" imported from "node_modules/util-deprecate/node.js"
+2026-04-02T08:50:37.002Z	   - "util" imported from " util?commonjs-external"
+2026-04-02T08:50:37.002Z	  
+2026-04-02T08:50:37.002Z	  08:50:32 [vite] ✓ built in 6.40s
+2026-04-02T08:50:37.002Z	  08:50:34 [WARN] [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:37.003Z	   - "path" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:37.003Z	   - "path" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:37.003Z	   - "path" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:37.003Z	   - "url" imported from "node_modules/postcss/lib/input.js"
+2026-04-02T08:50:37.003Z	   - "url" imported from "node_modules/postcss/lib/map-generator.js"
+2026-04-02T08:50:37.003Z	   - "fs" imported from "node_modules/postcss/lib/previous-map.js"
+2026-04-02T08:50:37.003Z	  
+2026-04-02T08:50:37.003Z	  08:50:35 [WARN] [vite] Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.
+2026-04-02T08:50:37.003Z	   - "util" imported from "node_modules/util-deprecate/node.js"
+2026-04-02T08:50:37.003Z	   - "util" imported from " util?commonjs-external"
+2026-04-02T08:50:37.003Z	   - "path" imported from " path?commonjs-external"
+2026-04-02T08:50:37.003Z	   - "url" imported from " url?commonjs-external"
+2026-04-02T08:50:37.003Z	   - "fs" imported from " fs?commonjs-external"
+2026-04-02T08:50:37.003Z	  
+2026-04-02T08:50:37.003Z	  08:50:35 [vite] ✓ built in 3.19s
+2026-04-02T08:50:37.006Z	  08:50:35 [vite] ✓ built in 217ms
+2026-04-02T08:50:37.006Z	  
+2026-04-02T08:50:37.007Z	   prerendering static routes 
+2026-04-02T08:50:37.007Z	      at makeError (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:133121:18)
+2026-04-02T08:50:37.007Z	      at handlePromise (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:133588:29)
+2026-04-02T08:50:37.007Z	      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-02T08:50:37.007Z	      at async runCommand (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:133785:5)
+2026-04-02T08:50:37.007Z	      at async runAutoConfig (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:230656:7)
+2026-04-02T08:50:37.007Z	      at async Object.handler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:231955:41)
+2026-04-02T08:50:37.008Z	      at async /opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:180699:26
+2026-04-02T08:50:37.008Z	      at async Object.handler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:180648:7) {
+2026-04-02T08:50:37.008Z	    shortMessage: 'Command failed with exit code 1: npm run build',
+2026-04-02T08:50:37.008Z	    command: 'npm run build',
+2026-04-02T08:50:37.008Z	    escapedCommand: 'npm run build',
+2026-04-02T08:50:37.008Z	    exitCode: 1,
+2026-04-02T08:50:37.008Z	    signal: undefined,
+2026-04-02T08:50:37.008Z	    signalDescription: undefined,
+2026-04-02T08:50:37.008Z	    stdout: '\n' +
+2026-04-02T08:50:37.008Z	      '> doc@0.0.1 build\n' +
+2026-04-02T08:50:37.008Z	      '> astro build\n' +
+2026-04-02T08:50:37.008Z	      '\n' +
+2026-04-02T08:50:37.008Z	      '\x1B[2m08:50:21\x1B[22m \x1B[34m[@astrojs/cloudflare]\x1B[39m Enabling image processing with Cloudflare Images for production with the "IMAGES" Images binding.\n' +
+2026-04-02T08:50:37.008Z	      '\x1B[2m08:50:21\x1B[22m \x1B[34m[@astrojs/cloudflare]\x1B[39m Enabling sessions with Cloudflare KV with the "SESSION" KV binding.\n' +
+2026-04-02T08:50:37.008Z	      '\x1B[2m08:50:24\x1B[22m \x1B[34m[vite]\x1B[39m Re-optimizing dependencies because lockfile has changed\n' +
+2026-04-02T08:50:37.008Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[content]\x1B[39m Syncing content\n' +
+2026-04-02T08:50:37.008Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[content]\x1B[39m Astro config changed\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[content]\x1B[39m Clearing content store\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[content]\x1B[39m Synced content\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[types]\x1B[39m Generated \x1B[2m3.53s\x1B[22m\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m output: \x1B[34m"static"\x1B[39m\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m mode: \x1B[34m"server"\x1B[39m\n' +
+2026-04-02T08:50:37.009Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m directory: \x1B[34m/opt/buildhome/repo/dist/\x1B[39m\n' +
+2026-04-02T08:50:37.010Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m adapter: \x1B[32m@astrojs/cloudflare\x1B[39m\n' +
+2026-04-02T08:50:37.010Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m Collecting build info...\n' +
+2026-04-02T08:50:37.010Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m \x1B[32m✓ Completed in 3.68s.\x1B[39m\n' +
+2026-04-02T08:50:37.010Z	      '\x1B[2m08:50:25\x1B[22m \x1B[34m[build]\x1B[39m Building server entrypoints...\n' +
+2026-04-02T08:50:37.010Z	      '\x1B[33m\x1B[1m08:50:30\x1B[22m [WARN] [vite]\x1B[39m Unexpected Node.js imports for environment "prerender". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.\n' +
+2026-04-02T08:50:37.010Z	      ' - "path" imported from "node_modules/postcss/lib/input.js"\n' +
+2026-04-02T08:50:37.010Z	      ' - "path" imported from "node_modules/postcss/lib/previous-map.js"\n' +
+2026-04-02T08:50:37.010Z	      ' - "path" imported from "node_modules/postcss/lib/map-generator.js"\n' +
+2026-04-02T08:50:37.010Z	      ' - "path" imported from "\x00path?commonjs-external"\n' +
+2026-04-02T08:50:37.012Z	      ' - "url" imported from "node_modules/postcss/lib/input.js"\n' +
+2026-04-02T08:50:37.012Z	      ' - "url" imported from "node_modules/postcss/lib/map-generator.js"\n' +
+2026-04-02T08:50:37.012Z	      ' - "url" imported from "\x00url?commonjs-external"\n' +
+2026-04-02T08:50:37.012Z	      ' - "fs" imported from "node_modules/postcss/lib/previous-map.js"\n' +
+2026-04-02T08:50:37.012Z	      ' - "fs" imported from "\x00fs?commonjs-external"\n' +
+2026-04-02T08:50:37.012Z	      ' - "util" imported from "node_modules/util-deprecate/node.js"\n' +
+2026-04-02T08:50:37.012Z	      ' - "util" imported from "\x00util?commonjs-external"\n' +
+2026-04-02T08:50:37.013Z	      '\n' +
+2026-04-02T08:50:37.013Z	      '\x1B[2m08:50:32\x1B[22m \x1B[34m[vite]\x1B[39m \x1B[32m✓ built in 6.40s\x1B[39m\n' +
+2026-04-02T08:50:37.013Z	      '\x1B[33m\x1B[1m08:50:34\x1B[22m [WARN] [vite]\x1B[39m Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.\n' +
+2026-04-02T08:50:37.013Z	      ' - "path" imported from "node_modules/postcss/lib/input.js"\n' +
+2026-04-02T08:50:37.013Z	      ' - "path" imported from "node_modules/postcss/lib/previous-map.js"\n' +
+2026-04-02T08:50:37.013Z	      ' - "path" imported from "node_modules/postcss/lib/map-generator.js"\n' +
+2026-04-02T08:50:37.013Z	      ' - "url" imported from "node_modules/postcss/lib/input.js"\n' +
+2026-04-02T08:50:37.013Z	      ' - "url" imported from "node_modules/postcss/lib/map-generator.js"\n' +
+2026-04-02T08:50:37.013Z	      ' - "fs" imported from "node_modules/postcss/lib/previous-map.js"\n' +
+2026-04-02T08:50:37.016Z	      '\n' +
+2026-04-02T08:50:37.016Z	      '\x1B[33m\x1B[1m08:50:35\x1B[22m [WARN] [vite]\x1B[39m Unexpected Node.js imports for environment "ssr". Do you need to enable the "nodejs_compat" compatibility flag? Refer to https://developers.cloudflare.com/workers/runtime-apis/nodejs/ for more details.\n' +
+2026-04-02T08:50:37.016Z	      ' - "util" imported from "node_modules/util-deprecate/node.js"\n' +
+2026-04-02T08:50:37.016Z	      ' - "util" imported from "\x00util?commonjs-external"\n' +
+2026-04-02T08:50:37.016Z	      ' - "path" imported from "\x00path?commonjs-external"\n' +
+2026-04-02T08:50:37.016Z	      ' - "url" imported from "\x00url?commonjs-external"\n' +
+2026-04-02T08:50:37.016Z	      ' - "fs" imported from "\x00fs?commonjs-external"\n' +
+2026-04-02T08:50:37.016Z	      '\n' +
+2026-04-02T08:50:37.016Z	      '\x1B[2m08:50:35\x1B[22m \x1B[34m[vite]\x1B[39m \x1B[32m✓ built in 3.19s\x1B[39m\n' +
+2026-04-02T08:50:37.017Z	      '\x1B[2m08:50:35\x1B[22m \x1B[34m[vite]\x1B[39m \x1B[32m✓ built in 217ms\x1B[39m\n' +
+2026-04-02T08:50:37.017Z	      '\n' +
+2026-04-02T08:50:37.017Z	      '\x1B[42m\x1B[30m prerendering static routes \x1B[39m\x1B[49m',
+2026-04-02T08:50:37.017Z	    stderr: 'Failed to get static paths from the Cloudflare prerender server (500: Internal Server Error).\n' +
+2026-04-02T08:50:37.017Z	      'Error: No such module "dist/server/.prerender/chunks/path".\n' +
+2026-04-02T08:50:37.017Z	      '  imported from "dist/server/.prerender/chunks/Code_CUCxYFxG.mjs"\n' +
+2026-04-02T08:50:37.017Z	      '    at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)\n' +
+2026-04-02T08:50:37.018Z	      '  \x1B[1mLocation:\x1B[22m\n' +
+2026-04-02T08:50:37.018Z	      '    \x1B[4m/opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22\x1B[24m\n' +
+2026-04-02T08:50:37.018Z	      '  \x1B[1mStack trace:\x1B[22m\n' +
+2026-04-02T08:50:37.018Z	      '\x1B[2m    at async Object.fetch (file:///opt/buildhome/repo/node_modules/miniflare/dist/src/workers/core/entry.worker.js:4636:22)\n' +
+2026-04-02T08:50:37.018Z	      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+2026-04-02T08:50:37.018Z	      '    at async BasicMinimalPluginContext.handler (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:132:11)\n' +
+2026-04-02T08:50:37.018Z	      '    at async buildEnvironments (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/static-build.js:316:3)\n' +
+2026-04-02T08:50:37.018Z	      '    at async AstroBuilder.build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:158:5)\n' +
+2026-04-02T08:50:37.018Z	      '    at async build (file:///opt/buildhome/repo/node_modules/astro/dist/core/build/index.js:48:3)\x1B[22m',
+2026-04-02T08:50:37.018Z	    failed: true,
+2026-04-02T08:50:37.018Z	    timedOut: false,
+2026-04-02T08:50:37.018Z	    isCanceled: false,
+2026-04-02T08:50:37.018Z	    killed: false
+2026-04-02T08:50:37.019Z	  }
+2026-04-02T08:50:37.019Z	
+2026-04-02T08:50:37.019Z	
+2026-04-02T08:50:37.019Z	✘ [ERROR] Running custom build `npm run build` failed. There are likely more logs from your build command above.
+2026-04-02T08:50:37.019Z	
+2026-04-02T08:50:37.019Z	
+2026-04-02T08:50:37.020Z	
+2026-04-02T08:50:37.020Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-04-02T08:50:37.020Z	
+2026-04-02T08:50:37.036Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-04-02_08-50-07_429.log"
+2026-04-02T08:50:37.092Z	Failed: error occurred while running deploy command

@@ -2,9 +2,15 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import mdx from '@astrojs/mdx';
+import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://doc.pages.dev',
+	output: 'server',
+	adapter: cloudflare({
+		imageService: 'cloudflare',
+	}),
 	integrations: [
 		starlight({
 			title: 'My Docs',
