@@ -13,6 +13,13 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
+					label: '交易之道',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: '期货-比较', slug: '交易之道/0-期货-比较' },
+					],
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
