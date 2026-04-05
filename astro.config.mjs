@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://doc.pages.dev',
+	site: 'https://doc-redboil.pages.dev',
 	output: 'static',
 	integrations: [
 		starlight({
@@ -14,10 +14,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: '交易之道',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: '期货-比较', slug: '交易之道/0-期货-比较' },
-					],
+					autogenerate: { directory: '交易之道' },
 				},
 				{
 					label: 'Guides',
