@@ -9,7 +9,7 @@ export default defineConfig({
 	output: 'static',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Docs',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
@@ -20,7 +20,7 @@ export default defineConfig({
 					label: '交易之道',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: '期货比较', slug: '0-期货-比较' },
+						{ label: '期货比较', slug: '交易之道/0-期货-比较' },
 					],
 				},
 			],
