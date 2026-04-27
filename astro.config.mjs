@@ -17,15 +17,11 @@ export default defineConfig({
 					autogenerate: { directory: '交易之道' },
 				},
 				{
-					label: 'Guides',
+					label: '交易之道',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: '期货比较', slug: '0-期货-比较' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
