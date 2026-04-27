@@ -13,6 +13,10 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
+					label: '2026',
+					autogenerate: { directory: '2026' },
+				},
+				{
 					label: '交易之道',
 					autogenerate: { directory: '交易之道' },
 				},
